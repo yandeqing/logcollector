@@ -5,12 +5,12 @@ apply plugin: 'com.novoda.bintray-release'
 publish {
     bintrayUser='yandeqing' //注册时候的用户名
     repoName = "maven"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
-    groupId = 'com.logstacksdk'// //compile引用时的第1部分
-    artifactId = 'logstacksdk'////发布到JCenter上的项目名字，compile引用时的第2部分项目名
+    groupId = 'com.yandeqing'// //compile引用时的第1部分
+    artifactId = 'logcollector'////发布到JCenter上的项目名字，compile引用时的第2部分项目名
     publishVersion = '1.0.0'//版本号 ，compile引用时的最后部分，下次更新是只需要更改版本号即可
-    desc = 'logstatcksdk'//描述，不重要
+    desc = 'logcollector'//描述，不重要
     licences = ['Apache-2.0']
-    website = 'https://github.com/yandeqing/SkyMonitoring.git' //项目的GitHub网站
+    website = 'https://github.com/yandeqing/logcollector.git' //项目的GitHub网站
 }
 
 
